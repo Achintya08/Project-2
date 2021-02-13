@@ -1,0 +1,50 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+h1{
+    margin-top: 20%;
+    color:white;
+}
+#main-div{
+background-color: rgba(239, 241, 239, 0.6);
+margin-left: 10%;
+margin-right: 10%;
+box-shadow: 0 0 8px rgba(33, 33, 33, 0.8);
+border-radius: 10px ;
+}
+#btn1{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    margin-left: 100px;
+    padding: 15px;
+    box-shadow: 0 0 8px rgba(33, 33, 33, 0.8);
+
+    
+}
+#auth{
+    float: right;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    
+}
+#text1{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#text1::before{
+    content: open-quote;
+    font-family: FontAwesome; 
+}
+#text1::after{
+    content: close-quote;
+    font-family: FontAwesome; 
+}
